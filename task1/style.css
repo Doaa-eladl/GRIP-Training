@@ -1,0 +1,142 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #efedea;
+}
+header{
+    background-color: #006a4d;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+ul > li {
+    margin: 0px 10px;
+}
+
+.aboutus{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.aboutus > img {
+    width: 36vw;
+    height: 40vh;
+}
+
+.aboutus > div {
+    width: 30vw;
+    background-color: white;
+    padding: 20px;
+    height: 40vh;
+}
+.contactusoptions > ul {
+    flex-direction: column;
+    padding-left: 5px;
+    padding-top: 35px;
+}
+.contactusoptions > ul > li > span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.services{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.services > h1 {
+    margin-top: 50px;
+}
+.serviceschards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90vw;
+    align-items: baseline;
+}
+.services > div > .card {
+    width: 28vw;
+    height: 45vh;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    background: #77ba00;
+    height: 72px;
+    left: calc(50% - 36px);
+    min-width: 72px;
+}
+svg{
+    height: 36px;
+    margin-top: 15px;
+    width: 36px;
+}
+path{
+    fill: #fff;
+}
+.customerssection{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+}
+table{
+    margin-top: 40px;
+}
+form{
+    display: none;
+    width: 38vw;
+    background-color: #fff;
+    border-radius: 3px;
+    height: 19vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 18px;
+}
+form > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+}
+input,
+select{
+    border: solid #d0d0d0 1px;
+    border-radius: 5px;
+}
+.sendmoneybtn{
+    width: 10vw;
+    margin: auto;
+    margin-bottom: 20px;
+}
